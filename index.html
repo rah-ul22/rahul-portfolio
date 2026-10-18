@@ -1,0 +1,1886 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahul M. | IT &amp; Technology Portfolio</title>
+  
+  <!-- SEO & Metadata -->
+  <meta name="description" content="MCA postgraduate portfolio showcasing projects and skills across data analytics, programming, artificial intelligence, machine learning, visualization and technology." />
+  <meta name="keywords" content="Rahul M, IT Professional, Technology, Data Analyst, Machine Learning, Python, Power BI, SQL, AI, MCA" />
+  <meta name="author" content="Rahul M." />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Open Graph / Social Cards -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Rahul M. | IT &amp; Technology Portfolio" />
+  <meta property="og:description" content="Building Data-Driven, Intelligent &amp; Technology Solutions. MCA postgraduate exploring the intersection of data, AI/ML, and software." />
+  <meta property="og:url" content="https://github.com/rahul1604-m" />
+  <meta property="og:site_name" content="Rahul M. Portfolio" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230b0f19'/><text x='50%' y='63%' font-family='sans-serif' font-weight='800' font-size='42' fill='%2338bdf8' text-anchor='middle'>RM</text></svg>" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-container" aria-hidden="true">
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+  </div>
+
+  <!-- ========================================================
+       NAVIGATION BAR
+       ======================================================== -->
+  <header class="header-nav" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand" aria-label="Rahul M. Homepage">
+        <span class="brand-monogram">RM</span>
+        <span class="brand-name">Rahul M<span class="brand-dot">.</span></span>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#maya-3d" class="nav-link">3D Models</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Theme Toggle + Resume Button) -->
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Resume Download CTA in Nav -->
+        <a href="resume.pdf" download="Rahul_M_Resume.pdf" class="btn btn-sm btn-outline nav-resume-btn" id="navResumeBtn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="mobile-drawer-content">
+      <ul class="mobile-nav-list">
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#maya-3d" class="mobile-nav-link">3D Models</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#certifications" class="mobile-nav-link">Certifications</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="resume.pdf" download="Rahul_M_Resume.pdf" class="btn btn-primary btn-block">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Download Resume (PDF)
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       MAIN CONTENT WRAPPER
+       ======================================================== -->
+  <main id="main-content">
+
+    <!-- ========================================================
+         1. HERO SECTION
+         ======================================================== -->
+    <section class="hero-section" id="home">
+      <!-- Ambient background grid and interactive particle canvas -->
+      <div class="hero-backdrop" aria-hidden="true">
+        <div class="hero-grid-pattern"></div>
+        <canvas id="ambientCanvas" class="ambient-canvas"></canvas>
+        <div class="glow-orb orb-primary"></div>
+        <div class="glow-orb orb-secondary"></div>
+      </div>
+
+      <div class="container hero-container">
+        <!-- Hero Text Column -->
+        <div class="hero-text-col">
+          <!-- Role & Category Pill -->
+          <div class="hero-badge">
+            <span class="badge-status-dot"></span>
+            <span class="badge-text">MCA Postgraduate &bull; IT &amp; Technology</span>
+          </div>
+
+          <!-- Name & Category -->
+          <div class="hero-identity">
+            <h1 class="hero-name">RAHUL M<span class="gradient-dot">.</span></h1>
+            <p class="hero-discipline">IT &amp; TECHNOLOGY</p>
+          </div>
+
+          <!-- Main Headline -->
+          <h2 class="hero-headline">
+            Building Data-Driven, Intelligent &amp; Technology Solutions
+          </h2>
+
+          <!-- Supporting Description -->
+          <p class="hero-description">
+            MCA postgraduate with hands-on experience across data analysis, programming, machine learning, visualization, and technology projects. Exploring the intersection of data, artificial intelligence, software and modern technology.
+          </p>
+
+          <!-- Core Value Proposition Badges -->
+          <div class="hero-capabilities-strip">
+            <span class="capability-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+              Data &amp; Analytics
+            </span>
+            <span class="capability-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.93V18a1 1 0 0 1-2 0v-1.07A7 7 0 0 1 5.07 11H4a1 1 0 0 1 0-2h1.07A7 7 0 0 1 11 3.07V2a1 1 0 0 1 2 0v1.07A7 7 0 0 1 18.93 9H20a1 1 0 0 1 0 2h-1.07A7 7 0 0 1 13 16.93z"></path></svg>
+              AI &amp; Machine Learning
+            </span>
+            <span class="capability-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              Software &amp; Python
+            </span>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="resume.pdf" download="Rahul_M_Resume.pdf" class="btn btn-outline" id="heroDownloadBtn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </a>
+            <button type="button" class="btn btn-ghost" id="openResumeModalBtn" aria-label="View Resume preview">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+              <span>View Resume</span>
+            </button>
+          </div>
+
+          <!-- Social Links Strip -->
+          <div class="hero-social-strip">
+            <span class="social-label">Connect:</span>
+            <div class="social-icons">
+              <a href="https://github.com/rahul1604-m" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile (opens in new tab)" title="GitHub: github.com/rahul1604-m">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/rahulm1604" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile (opens in new tab)" title="LinkedIn: linkedin.com/in/rahulm1604">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.985 1.985 0 1 1 0-3.97 1.985 1.985 0 0 1 0 3.97zm1.765 13.019H3.57V9h3.532v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </a>
+              <a href="mailto:rahulmurugan1812@gmail.com" class="social-link" aria-label="Send Email" title="Email: rahulmurugan1812@gmail.com">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+            <span class="location-tag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Tamil Nadu, India
+            </span>
+          </div>
+        </div>
+
+        <!-- Hero Visual Column: DATA -> INTELLIGENCE -> TECHNOLOGY Pipeline -->
+        <div class="hero-visual-col">
+          <div class="tech-pipeline-card">
+            <div class="pipeline-header">
+              <div class="window-dots">
+                <span class="w-dot red"></span>
+                <span class="w-dot yellow"></span>
+                <span class="w-dot green"></span>
+              </div>
+              <span class="pipeline-title">System Architecture Pipeline</span>
+              <span class="pipeline-status"><span class="pulse-live"></span>Active</span>
+            </div>
+
+            <div class="pipeline-body">
+              <!-- Stage 1: DATA -->
+              <div class="pipeline-node node-data">
+                <div class="node-icon-wrapper">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                  </svg>
+                </div>
+                <div class="node-content">
+                  <div class="node-tag">PHASE 01 &bull; INGESTION</div>
+                  <h3 class="node-title">DATA LAYER</h3>
+                  <p class="node-desc">SQL, MySQL, Oracle, Advanced Excel, Preprocessing, Time Series</p>
+                  <div class="node-pills">
+                    <span>Structured Query</span>
+                    <span>EDA</span>
+                    <span>Feature Extraction</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Connector 1 -->
+              <div class="pipeline-connector">
+                <div class="connector-line">
+                  <div class="flow-particle"></div>
+                </div>
+                <div class="connector-label">Transformed Features &bull; Pipeline Stream</div>
+              </div>
+
+              <!-- Stage 2: INTELLIGENCE -->
+              <div class="pipeline-node node-intelligence">
+                <div class="node-icon-wrapper">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.93V18a1 1 0 0 1-2 0v-1.07A7 7 0 0 1 5.07 11H4a1 1 0 0 1 0-2h1.07A7 7 0 0 1 11 3.07V2a1 1 0 0 1 2 0v1.07A7 7 0 0 1 18.93 9H20a1 1 0 0 1 0 2h-1.07A7 7 0 0 1 13 16.93z"></path>
+                  </svg>
+                </div>
+                <div class="node-content">
+                  <div class="node-tag">PHASE 02 &bull; MODELING</div>
+                  <h3 class="node-title">INTELLIGENCE LAYER</h3>
+                  <p class="node-desc">Random Forest, LSTM, KNN, Scikit-learn, TensorFlow &bull; Predictive AI</p>
+                  <div class="node-pills">
+                    <span>Hybrid AI</span>
+                    <span>~98% Seismic Risk Acc.</span>
+                    <span>~89% Survival Acc.</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Connector 2 -->
+              <div class="pipeline-connector">
+                <div class="connector-line">
+                  <div class="flow-particle delay"></div>
+                </div>
+                <div class="connector-label">Inference &amp; Analytics Integration</div>
+              </div>
+
+              <!-- Stage 3: TECHNOLOGY -->
+              <div class="pipeline-node node-technology">
+                <div class="node-icon-wrapper">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                </div>
+                <div class="node-content">
+                  <div class="node-tag">PHASE 03 &bull; DELIVERY</div>
+                  <h3 class="node-title">TECHNOLOGY LAYER</h3>
+                  <p class="node-desc">Power BI Dashboards, Interactive Web Apps, Streamlit, APIs, Reporting</p>
+                  <div class="node-pills">
+                    <span>Real-Time Dashboards</span>
+                    <span>Decision Support</span>
+                    <span>End-to-End System</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pipeline Footer -->
+            <div class="pipeline-footer">
+              <div class="stat-mini">
+                <span class="sm-label">Degree</span>
+                <span class="sm-val">MCA (2024–2026)</span>
+              </div>
+              <div class="stat-mini">
+                <span class="sm-label">Framework</span>
+                <span class="sm-val">End-to-End Hybrid</span>
+              </div>
+              <div class="stat-mini">
+                <span class="sm-label">Deployment</span>
+                <span class="sm-val">Interactive Web</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Scroll Indicator -->
+      <a href="#about" class="scroll-down-hint" aria-label="Scroll down to About section">
+        <span class="scroll-mouse">
+          <span class="scroll-wheel"></span>
+        </span>
+        <span class="scroll-text">Explore Profile</span>
+      </a>
+    </section>
+
+    <!-- ========================================================
+         2. ABOUT SECTION
+         ======================================================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-heading">
+          <div class="section-eyebrow">Professional Profile</div>
+          <h2 class="section-title">About <span class="gradient-text">Rahul M</span></h2>
+          <p class="section-lead">
+            Bridging analytical rigor, computational intelligence, and modern technology frameworks.
+          </p>
+        </div>
+
+        <div class="about-layout-grid">
+          <!-- Main Narrative Column -->
+          <div class="about-narrative-card">
+            <div class="narrative-badge">
+              <span class="pill-dot"></span>
+              <span>MCA Postgraduate &bull; Entry-Level Technology Professional</span>
+            </div>
+            
+            <h3 class="narrative-heading">
+              Engineering Solutions at the Intersection of Data, AI &amp; Software
+            </h3>
+
+            <div class="narrative-text">
+              <p>
+                I am an <strong>MCA postgraduate</strong> pursuing my Master of Computer Applications at <strong>Sastra Deemed University, Thanjavur</strong> (2024–2026), having previously completed my <strong>BCA</strong> with distinction at <strong>Hindustan College of Arts and Science, Coimbatore</strong> (2021–2024).
+              </p>
+              <p>
+                With a broad, multidisciplinary IT foundation, I specialize in transforming raw, multi-source datasets into structured, actionable intelligence and building end-to-end technology solutions. My technical toolkit bridges <strong>programming (Python, SQL), enterprise data analysis (Excel, Power BI), and applied artificial intelligence (Random Forest, KNN, LSTM deep learning)</strong>.
+              </p>
+              <p>
+                Whether the objective is designing dynamic business intelligence dashboards for executive decision-makers, engineering time-series forecasting models using USGS seismic records, or applying predictive machine learning to complex medical survival data, I focus on reproducible pipelines, analytical clarity, and business process understanding.
+              </p>
+            </div>
+
+            <!-- Key Fact Highlights -->
+            <div class="about-metrics-row">
+              <div class="metric-box">
+                <span class="metric-num">MCA</span>
+                <span class="metric-sub">SASTRA University (2026)</span>
+              </div>
+              <div class="metric-box">
+                <span class="metric-num">BCA</span>
+                <span class="metric-sub">Hindustan CAS (CGPA 7.4)</span>
+              </div>
+              <div class="metric-box">
+                <span class="metric-num">4+</span>
+                <span class="metric-sub">End-to-End Projects</span>
+              </div>
+              <div class="metric-box">
+                <span class="metric-num">5</span>
+                <span class="metric-sub">Verified Certifications</span>
+              </div>
+            </div>
+
+            <!-- Languages spoken -->
+            <div class="about-languages">
+              <span class="lang-title">Languages:</span>
+              <div class="lang-pill-group">
+                <span class="lang-pill">English (Professional)</span>
+                <span class="lang-pill">Tamil (Native)</span>
+                <span class="lang-pill">Hindi (Conversational)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- "What I Work With" Interactive Grid -->
+          <div class="what-i-work-with-panel">
+            <div class="panel-header">
+              <h3 class="panel-title">WHAT I WORK WITH</h3>
+              <span class="panel-sub">Applied Core Technology Stack</span>
+            </div>
+
+            <div class="stack-categories-list">
+              <!-- Category 1: Data & Analytics -->
+              <div class="stack-cat-card">
+                <div class="stack-cat-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                    <line x1="18" y1="20" x2="18" y2="10"></line>
+                    <line x1="12" y1="20" x2="12" y2="4"></line>
+                    <line x1="6" y1="20" x2="6" y2="14"></line>
+                  </svg>
+                </div>
+                <div class="stack-cat-details">
+                  <h4 class="cat-name">DATA &amp; ANALYTICS</h4>
+                  <div class="cat-tags">
+                    <span class="tech-tag highlight">Python</span>
+                    <span class="tech-tag highlight">SQL</span>
+                    <span class="tech-tag">Microsoft Excel</span>
+                    <span class="tech-tag">Power BI</span>
+                    <span class="tech-tag">Google Sheets</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Category 2: AI & Machine Learning -->
+              <div class="stack-cat-card">
+                <div class="stack-cat-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.93V18a1 1 0 0 1-2 0v-1.07A7 7 0 0 1 5.07 11H4a1 1 0 0 1 0-2h1.07A7 7 0 0 1 11 3.07V2a1 1 0 0 1 2 0v1.07A7 7 0 0 1 18.93 9H20a1 1 0 0 1 0 2h-1.07A7 7 0 0 1 13 16.93z"></path>
+                  </svg>
+                </div>
+                <div class="stack-cat-details">
+                  <h4 class="cat-name">AI &amp; MACHINE LEARNING</h4>
+                  <div class="cat-tags">
+                    <span class="tech-tag highlight">Scikit-learn</span>
+                    <span class="tech-tag highlight">TensorFlow</span>
+                    <span class="tech-tag">Keras</span>
+                    <span class="tech-tag">Random Forest</span>
+                    <span class="tech-tag">Decision Trees</span>
+                    <span class="tech-tag">KNN</span>
+                    <span class="tech-tag">LSTM</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Category 3: Databases -->
+              <div class="stack-cat-card">
+                <div class="stack-cat-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                  </svg>
+                </div>
+                <div class="stack-cat-details">
+                  <h4 class="cat-name">DATABASES</h4>
+                  <div class="cat-tags">
+                    <span class="tech-tag highlight">MySQL</span>
+                    <span class="tech-tag highlight">Oracle SQL</span>
+                    <span class="tech-tag">Relational Schemas</span>
+                    <span class="tech-tag">Data Queries</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Category 4: Tools & Platforms -->
+              <div class="stack-cat-card">
+                <div class="stack-cat-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                  </svg>
+                </div>
+                <div class="stack-cat-details">
+                  <h4 class="cat-name">TOOLS &amp; PLATFORMS</h4>
+                  <div class="cat-tags">
+                    <span class="tech-tag highlight">VS Code</span>
+                    <span class="tech-tag highlight">GitHub</span>
+                    <span class="tech-tag">Jupyter Notebook</span>
+                    <span class="tech-tag">Streamlit</span>
+                    <span class="tech-tag">APIs</span>
+                    <span class="tech-tag">Power BI</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         3. SKILLS SECTION (Strictly factual, NO fake percentages)
+         ======================================================== -->
+    <section class="section skills-section section-alt" id="skills">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-heading">
+          <div class="section-eyebrow">Technical Competencies</div>
+          <h2 class="section-title">Comprehensive <span class="gradient-text">Skill Matrix</span></h2>
+          <p class="section-lead">
+            Categorized competencies documented from academic coursework, analytical projects, and continuous learning.
+          </p>
+        </div>
+
+        <!-- Category Filter Buttons -->
+        <div class="skills-filter-bar" role="tablist" aria-label="Skill Categories">
+          <button class="filter-tab active" data-filter="all" role="tab" aria-selected="true">All Skills</button>
+          <button class="filter-tab" data-filter="prog-db" role="tab" aria-selected="false">Programming &amp; DB</button>
+          <button class="filter-tab" data-filter="analytics-bi" role="tab" aria-selected="false">Analytics &amp; BI</button>
+          <button class="filter-tab" data-filter="data-analysis" role="tab" aria-selected="false">Data Analysis</button>
+          <button class="filter-tab" data-filter="ml-python" role="tab" aria-selected="false">Machine Learning</button>
+          <button class="filter-tab" data-filter="viz-platforms" role="tab" aria-selected="false">Visualization &amp; Tools</button>
+          <button class="filter-tab" data-filter="prof-skills" role="tab" aria-selected="false">Professional Skills</button>
+        </div>
+
+        <!-- Skills Cards Matrix -->
+        <div class="skills-grid-container">
+
+          <!-- Category 1: Programming & Databases -->
+          <div class="skill-category-card" data-cat="prog-db">
+            <div class="cat-card-header">
+              <div class="cat-icon-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Programming &amp; Databases</h3>
+                <span class="cat-count">4 Technologies</span>
+              </div>
+            </div>
+            <div class="skill-chips-list">
+              <div class="skill-chip"><span class="chip-dot"></span>Python</div>
+              <div class="skill-chip"><span class="chip-dot"></span>SQL</div>
+              <div class="skill-chip"><span class="chip-dot"></span>MySQL</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Oracle SQL</div>
+            </div>
+          </div>
+
+          <!-- Category 2: Analytics & BI Tools -->
+          <div class="skill-category-card" data-cat="analytics-bi">
+            <div class="cat-card-header">
+              <div class="cat-icon-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Analytics &amp; BI Tools</h3>
+                <span class="cat-count">5 Competencies</span>
+              </div>
+            </div>
+            <div class="skill-chips-list">
+              <div class="skill-chip"><span class="chip-dot"></span>Microsoft Excel</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Advanced Excel</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Power BI</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Google Sheets</div>
+              <div class="skill-chip status-learning"><span class="chip-dot learning"></span>SAS (Learning)</div>
+            </div>
+          </div>
+
+          <!-- Category 3: Data Analysis -->
+          <div class="skill-category-card" data-cat="data-analysis">
+            <div class="cat-card-header">
+              <div class="cat-icon-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Data Analysis</h3>
+                <span class="cat-count">8 Methodologies</span>
+              </div>
+            </div>
+            <div class="skill-chips-list">
+              <div class="skill-chip"><span class="chip-dot"></span>Data Cleaning</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Data Preprocessing</div>
+              <div class="skill-chip"><span class="chip-dot"></span>EDA (Exploratory Analysis)</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Statistical Analysis</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Forecasting</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Customer Segmentation</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Time Series Analysis</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Predictive Analytics</div>
+            </div>
+          </div>
+
+          <!-- Category 4: Machine Learning & Python -->
+          <div class="skill-category-card" data-cat="ml-python">
+            <div class="cat-card-header">
+              <div class="cat-icon-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Machine Learning &amp; Python</h3>
+                <span class="cat-count">13 Frameworks &amp; Algorithms</span>
+              </div>
+            </div>
+            <div class="skill-chips-list">
+              <div class="skill-chip"><span class="chip-dot"></span>Pandas</div>
+              <div class="skill-chip"><span class="chip-dot"></span>NumPy</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Scikit-learn</div>
+              <div class="skill-chip"><span class="chip-dot"></span>TensorFlow</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Keras</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Matplotlib</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Seaborn</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Random Forest</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Decision Trees</div>
+              <div class="skill-chip"><span class="chip-dot"></span>KNN</div>
+              <div class="skill-chip"><span class="chip-dot"></span>LSTM</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Classification</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Regression</div>
+            </div>
+          </div>
+
+          <!-- Category 5: Visualization & Platforms -->
+          <div class="skill-category-card" data-cat="viz-platforms">
+            <div class="cat-card-header">
+              <div class="cat-icon-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Visualization &amp; Platforms</h3>
+                <span class="cat-count">10 Technologies</span>
+              </div>
+            </div>
+            <div class="skill-chips-list">
+              <div class="skill-chip"><span class="chip-dot"></span>Dashboard Development</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Data Visualization</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Pivot Tables</div>
+              <div class="skill-chip"><span class="chip-dot"></span>VLOOKUP</div>
+              <div class="skill-chip"><span class="chip-dot"></span>XLOOKUP</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Jupyter Notebook</div>
+              <div class="skill-chip"><span class="chip-dot"></span>VS Code</div>
+              <div class="skill-chip"><span class="chip-dot"></span>GitHub</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Streamlit</div>
+              <div class="skill-chip"><span class="chip-dot"></span>APIs</div>
+              <div class="skill-chip highlight-chip"><span class="chip-dot"></span>Autodesk Maya (3D Modeling)</div>
+            </div>
+          </div>
+
+          <!-- Category 6: Professional Skills -->
+          <div class="skill-category-card" data-cat="prof-skills">
+            <div class="cat-card-header">
+              <div class="cat-icon-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Professional &amp; Business Skills</h3>
+                <span class="cat-count">8 Core Strengths</span>
+              </div>
+            </div>
+            <div class="skill-chips-list">
+              <div class="skill-chip"><span class="chip-dot"></span>Requirement Analysis</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Problem Solving</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Critical Thinking</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Attention to Detail</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Time Management</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Client Support</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Stakeholder Communication</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Business Process Understanding</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         4. PROJECTS SECTION
+         ======================================================== -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-heading">
+          <div class="section-eyebrow">Verified Implementations</div>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-lead">
+            Applied technical solutions across analytics dashboards, machine learning classification, and hybrid seismic forecasting models.
+          </p>
+        </div>
+
+        <!-- Project Filtering Tabs -->
+        <div class="projects-filter-bar" role="tablist" aria-label="Project Filter">
+          <button class="project-tab active" data-filter="all" role="tab" aria-selected="true">All Projects (4)</button>
+          <button class="project-tab" data-filter="data-analytics" role="tab" aria-selected="false">Data &amp; Analytics (1)</button>
+          <button class="project-tab" data-filter="ai-ml" role="tab" aria-selected="false">AI / Machine Learning (3)</button>
+          <button class="project-tab" data-filter="software-tech" role="tab" aria-selected="false">Software / Technology (2)</button>
+        </div>
+
+        <!-- Project Cards Grid -->
+        <div class="projects-grid">
+
+          <!-- PROJECT 1: Sales Data Analysis Dashboard -->
+          <article class="project-card" data-category="data-analytics software-tech">
+            <div class="project-card-inner">
+              <div class="project-card-header">
+                <span class="project-badge badge-analytics">DATA &amp; ANALYTICS</span>
+                <span class="project-index">01</span>
+              </div>
+
+              <h3 class="project-title">Sales Data Analysis Dashboard</h3>
+
+              <p class="project-summary">
+                Built an interactive dashboard to monitor sales, profit, and units sold, enabling stakeholder reporting and supporting data-driven client decision-making.
+              </p>
+
+              <!-- Highlights list from resume -->
+              <ul class="project-highlights">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Interactive visualizations (bar, line, pie charts) analyzing sales trends, regional performance, and product insights.</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Implemented dynamic multi-tier filters for region, product, and salesperson to enable real-time, data-driven decisions.</span>
+                </li>
+              </ul>
+
+              <!-- Technologies Used -->
+              <div class="project-tech-tags">
+                <span class="p-tag">Microsoft Excel</span>
+                <span class="p-tag">Power BI</span>
+                <span class="p-tag">Pivot Tables</span>
+                <span class="p-tag">Data Visualization</span>
+                <span class="p-tag">KPI Reporting</span>
+              </div>
+
+              <!-- Card Action Button -->
+              <div class="project-card-footer">
+                <button type="button" class="btn btn-sm btn-primary view-project-btn" data-project="sales-dashboard">
+                  <span>View Details</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Bone Cancer Survival Prediction -->
+          <article class="project-card" data-category="ai-ml">
+            <div class="project-card-inner">
+              <div class="project-card-header">
+                <span class="project-badge badge-aiml">AI / MACHINE LEARNING</span>
+                <span class="project-index">02</span>
+              </div>
+
+              <h3 class="project-title">Predicting Length of Survival for Bone Cancer Patients</h3>
+
+              <div class="project-metric-pill">
+                <span class="metric-accent-dot"></span>
+                <span>Reported classification accuracy: <strong>~89%</strong></span>
+              </div>
+
+              <p class="project-summary">
+                Expanded machine learning models using KNN and Random Forest to predict bone cancer risk from patient health and medical test data.
+              </p>
+
+              <!-- Highlights list from resume -->
+              <ul class="project-highlights">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Performed data preprocessing, feature selection, and model testing across clinical and laboratory metrics.</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Evaluated accuracy metrics to validate deployment readiness and support early clinical decision-making.</span>
+                </li>
+              </ul>
+
+              <!-- Technologies Used -->
+              <div class="project-tech-tags">
+                <span class="p-tag">Python</span>
+                <span class="p-tag">Scikit-learn</span>
+                <span class="p-tag">Random Forest</span>
+                <span class="p-tag">KNN</span>
+                <span class="p-tag">Feature Selection</span>
+              </div>
+
+              <!-- Card Action Button -->
+              <div class="project-card-footer">
+                <button type="button" class="btn btn-sm btn-primary view-project-btn" data-project="bone-cancer">
+                  <span>View Details</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Earthquake Prediction Using Hybrid Approach -->
+          <article class="project-card" data-category="ai-ml">
+            <div class="project-card-inner">
+              <div class="project-card-header">
+                <span class="project-badge badge-aiml">AI / MACHINE LEARNING</span>
+                <span class="project-index">03</span>
+              </div>
+
+              <h3 class="project-title">Earthquake Prediction Using Hybrid Approach</h3>
+
+              <div class="project-metric-pill neutral">
+                <span class="metric-accent-dot"></span>
+                <span>Time-Series Hybrid Modeling &bull; USGS Data</span>
+              </div>
+
+              <p class="project-summary">
+                Built a hybrid forecasting model combining Random Forest and LSTM neural networks with USGS earthquake data.
+              </p>
+
+              <!-- Highlights list from resume -->
+              <ul class="project-highlights">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Applied sliding-window techniques for seismic feature extraction and temporal sequential forecasting.</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Improved model performance through robust preprocessing, normalization, and rigorous cross-validation.</span>
+                </li>
+              </ul>
+
+              <!-- Technologies Used -->
+              <div class="project-tech-tags">
+                <span class="p-tag">Python</span>
+                <span class="p-tag">LSTM</span>
+                <span class="p-tag">Random Forest</span>
+                <span class="p-tag">USGS Dataset</span>
+                <span class="p-tag">Time Series</span>
+                <span class="p-tag">Sliding Window</span>
+              </div>
+
+              <!-- Card Action Button -->
+              <div class="project-card-footer">
+                <button type="button" class="btn btn-sm btn-primary view-project-btn" data-project="earthquake-hybrid">
+                  <span>View Details</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: End-to-End Hybrid AI Framework for Earthquake Forecasting -->
+          <article class="project-card project-card-spotlight" data-category="ai-ml software-tech">
+            <div class="project-card-inner">
+              <div class="project-card-header">
+                <div class="badge-group">
+                  <span class="project-badge badge-aiml">AI / MACHINE LEARNING</span>
+                  <span class="project-badge badge-soft">END-TO-END SYSTEM</span>
+                </div>
+                <span class="project-index">04</span>
+              </div>
+
+              <h3 class="project-title">End-to-End Hybrid AI Framework for Earthquake Forecasting</h3>
+
+              <div class="project-metric-pill">
+                <span class="metric-accent-dot"></span>
+                <span>Reported risk classification accuracy: <strong>~98%</strong> (M &ge; 6.0)</span>
+              </div>
+
+              <p class="project-summary">
+                Improved an end-to-end forecasting system to estimate the probability of major earthquakes (M &ge; 6.0) and maximum expected magnitude.
+              </p>
+
+              <!-- Highlights list from resume -->
+              <ul class="project-highlights">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Implemented magnitude-based resampling and sliding-window feature engineering for time-series modeling.</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Delivered an end-to-end solution deployment enabling real-time seismic risk analysis, interactive hazard visualization, and ongoing system monitoring.</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Designed system architecture for hybrid model, selecting Random Forest &amp; LSTM components and specifying data pipeline requirements.</span>
+                </li>
+              </ul>
+
+              <!-- Technologies Used -->
+              <div class="project-tech-tags">
+                <span class="p-tag">Python</span>
+                <span class="p-tag">Random Forest</span>
+                <span class="p-tag">LSTM</span>
+                <span class="p-tag">Interactive Hazard Viz</span>
+                <span class="p-tag">USGS Pipeline</span>
+                <span class="p-tag">System Monitoring</span>
+              </div>
+
+              <!-- Card Action Button -->
+              <div class="project-card-footer">
+                <button type="button" class="btn btn-sm btn-primary view-project-btn" data-project="earthquake-framework">
+                  <span>View Details</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         4B. AUTODESK MAYA 3D SHOWCASE SECTION
+         ======================================================== -->
+    <section class="section maya-3d-section" id="maya-3d">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-heading">
+          <div class="section-eyebrow">Creative Engineering &bull; 3D Design</div>
+          <h2 class="section-title">Autodesk Maya <span class="gradient-text">3D Showcase</span></h2>
+          <p class="section-lead">
+            Interactive real-time 3D viewport featuring original hard-surface models, props, and architectural assets created in Autodesk Maya. Rotate, zoom, and inspect 3D geometry.
+          </p>
+        </div>
+
+        <!-- 3D Model Switcher Bar -->
+        <div class="maya-models-bar" role="tablist" aria-label="3D Maya Models">
+          <button class="maya-model-tab active" data-model="ghostblaster" role="tab" aria-selected="true">
+            <span class="tab-star">&#9733;</span> Ghostblaster (Featured)
+          </button>
+          <button class="maya-model-tab" data-model="bike" role="tab" aria-selected="false">
+            Bike
+          </button>
+          <button class="maya-model-tab" data-model="Boat" role="tab" aria-selected="false">
+            Boat
+          </button>
+          <button class="maya-model-tab" data-model="firepump" role="tab" aria-selected="false">
+            Fire Pump
+          </button>
+          <button class="maya-model-tab" data-model="Home" role="tab" aria-selected="false">
+            Architecture Home
+          </button>
+          <button class="maya-model-tab" data-model="streel" role="tab" aria-selected="false">
+            Street Light
+          </button>
+          <button class="maya-model-tab" data-model="axe" role="tab" aria-selected="false">
+            Battle Axe
+          </button>
+          <button class="maya-model-tab" data-model="book" role="tab" aria-selected="false">
+            Spell Book
+          </button>
+        </div>
+
+        <!-- 3D Viewport Main Stage -->
+        <div class="maya-viewport-card">
+          <!-- Viewport Header Toolbar -->
+          <div class="viewport-toolbar">
+            <div class="model-meta-info">
+              <span class="badge-status-dot"></span>
+              <span class="model-current-name" id="currentModelName">Ghostblaster</span>
+              <span class="model-format-tag">Kaydara FBX 7700 &bull; Autodesk Maya</span>
+            </div>
+
+            <div class="viewport-instructions">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 8v8m-4-4h8"></path>
+              </svg>
+              <span>Drag to rotate &bull; Scroll to zoom &bull; Right-click to pan</span>
+            </div>
+          </div>
+
+          <!-- Canvas Container -->
+          <div class="maya-canvas-wrapper" id="mayaCanvasWrapper">
+            <canvas id="maya3dCanvas" class="maya-3d-canvas"></canvas>
+
+            <!-- Loading Spinner Overlay -->
+            <div class="maya-loader-overlay" id="mayaLoader">
+              <div class="loader-spinner"></div>
+              <p class="loader-text" id="loaderText">Loading 3D Mesh...</p>
+              <div class="loader-bar-wrap">
+                <div class="loader-bar-fill" id="loaderBarFill"></div>
+              </div>
+            </div>
+
+            <!-- Floating Viewport Controls -->
+            <div class="viewport-controls-dock">
+              <button type="button" class="ctrl-dock-btn active" id="btnToggleRotate" title="Toggle Auto-Rotation">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                  <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path>
+                </svg>
+                <span>Auto-Rotate: <strong id="autoRotateStatus">ON</strong></span>
+              </button>
+
+
+
+
+              <button type="button" class="ctrl-dock-btn" id="btnResetView" title="Reset Camera Framing">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span>Reset View</span>
+              </button>
+
+              <button type="button" class="ctrl-dock-btn" id="btnOpenLocalFile" title="Open Custom FBX File">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="17 8 12 3 7 8"></polyline>
+                  <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+                <span>Open FBX</span>
+              </button>
+              <input type="file" id="localFbxInput" accept=".fbx,.glb,.gltf" style="display:none;" />
+            </div>
+          </div>
+
+          <!-- Model Details Footer Strip -->
+          <div class="viewport-details-footer">
+            <div class="model-spec-block">
+              <span class="spec-label">Model Focus</span>
+              <span class="spec-val" id="modelSpecFocus">Sci-Fi Weapon &bull; Hard Surface Topology</span>
+            </div>
+            <div class="model-spec-block">
+              <span class="spec-label">File Size</span>
+              <span class="spec-val" id="modelSpecSize">5.72 MB</span>
+            </div>
+            <div class="model-spec-block">
+              <span class="spec-label">Pipeline</span>
+              <span class="spec-val">Maya Mesh ➔ FBX ➔ Three.js WebGL</span>
+            </div>
+            <div class="model-spec-block">
+              <span class="spec-label">Rendering Mode</span>
+              <span class="spec-val" id="modelSpecLighting">Studio Key &amp; Fill Lighting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         5. EDUCATION SECTION
+         ======================================================== -->
+    <section class="section education-section section-alt" id="education">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-heading">
+          <div class="section-eyebrow">Academic Foundation</div>
+          <h2 class="section-title">Education &amp; <span class="gradient-text">Milestones</span></h2>
+          <p class="section-lead">
+            Formal degrees in Computer Applications and foundational schooling in Kendriya Vidyalaya.
+          </p>
+        </div>
+
+        <!-- Timeline Container -->
+        <div class="timeline-wrapper">
+          <div class="timeline-line"></div>
+
+          <!-- Timeline Item 1: MCA -->
+          <div class="timeline-card-item">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card-content">
+              <div class="timeline-badge-row">
+                <span class="t-badge active-degree">In Progress (2024 – 2026)</span>
+                <span class="t-grade">CGPA: 7.0</span>
+              </div>
+              <h3 class="t-degree">Master of Computer Applications (MCA)</h3>
+              <div class="t-institution">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                <span>SASTRA Deemed University, Thanjavur</span>
+              </div>
+              <p class="t-duration">July 2024 &ndash; May 2026</p>
+              <p class="t-desc">
+                Advanced studies in computer applications, algorithmic data processing, database architectures, machine learning frameworks, and software system development.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: BCA -->
+          <div class="timeline-card-item">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card-content">
+              <div class="timeline-badge-row">
+                <span class="t-badge completed-degree">Graduated</span>
+                <span class="t-grade">CGPA: 7.4</span>
+              </div>
+              <h3 class="t-degree">Bachelor of Computer Application (BCA)</h3>
+              <div class="t-institution">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                <span>Hindustan College of Arts and Science, Coimbatore</span>
+              </div>
+              <p class="t-duration">June 2021 &ndash; April 2024</p>
+              <p class="t-desc">
+                Undergraduate degree establishing fundamental foundations in programming, database management systems, data structures, and computer science principles.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: 12th Standard -->
+          <div class="timeline-card-item">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card-content">
+              <div class="timeline-badge-row">
+                <span class="t-badge secondary">Higher Secondary (CBSE)</span>
+                <span class="t-grade">69%</span>
+              </div>
+              <h3 class="t-degree">12th Standard</h3>
+              <div class="t-institution">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                <span>Kendriya Vidyalaya (CBSE), Madurai</span>
+              </div>
+              <p class="t-duration">April 2021</p>
+              <p class="t-desc">
+                Central Board of Secondary Education (CBSE) higher secondary curriculum with mathematics and science foundation.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 4: 10th Standard -->
+          <div class="timeline-card-item">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card-content">
+              <div class="timeline-badge-row">
+                <span class="t-badge secondary">Secondary School (CBSE)</span>
+                <span class="t-grade">58%</span>
+              </div>
+              <h3 class="t-degree">10th Standard</h3>
+              <div class="t-institution">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                <span>Kendriya Vidyalaya (CBSE), Madurai</span>
+              </div>
+              <p class="t-duration">April 2019</p>
+              <p class="t-desc">
+                Secondary school examination under the Central Board of Secondary Education (CBSE).
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         6. CERTIFICATIONS SECTION
+         ======================================================== -->
+    <section class="section certifications-section" id="certifications">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-heading">
+          <div class="section-eyebrow">Verified Credentials</div>
+          <h2 class="section-title">Professional <span class="gradient-text">Certifications</span></h2>
+          <p class="section-lead">
+            Formal technical certifications and verified simulations across IoT, Cloud Computing, Cybersecurity, Java Robotics, and Data Preparation.
+          </p>
+        </div>
+
+        <div class="certifications-grid">
+
+          <!-- 1. NPTEL IoT (Elite + Silver) -->
+          <div class="certification-card cert-card-featured">
+            <div class="cert-card-header">
+              <div class="cert-icon-wrapper cert-icon-silver">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+              </div>
+              <span class="cert-status-badge badge-silver">&#127941; Elite + Silver &bull; 81%</span>
+            </div>
+
+            <h3 class="cert-title">Introduction to Internet of Things</h3>
+            
+            <div class="cert-issuer">
+              <span class="issuer-name">NPTEL &bull; IIT Kharagpur</span>
+              <span class="issuer-dot">&bull;</span>
+              <span class="issuer-focus">Jan–Apr 2026 (12-Week Course)</span>
+            </div>
+
+            <div class="cert-score-strip">
+              <span class="score-pill">Consolidated Score: <strong>81%</strong></span>
+              <span class="score-pill">Assignments: <strong>23.5/25</strong></span>
+              <span class="score-pill">Exam: <strong>57/75</strong></span>
+              <span class="score-pill">Credits: <strong>4</strong></span>
+            </div>
+
+            <p class="cert-desc">
+              Rigorous National Programme on Technology Enhanced Learning (MoE, Govt. of India) certification administered by Indian Institute of Technology Kharagpur. Covers end-to-end IoT architectures, sensor networks, microcontrollers, communication protocols, and wireless systems.
+            </p>
+
+            <div class="cert-meta-footer">
+              <span class="cert-roll">Roll: NPTEL26CS37S766500152</span>
+              <span class="cert-cohort">Top Performers Cohort (Total: 43,953)</span>
+            </div>
+
+            <div class="cert-topics">
+              <span class="c-topic">Internet of Things</span>
+              <span class="c-topic">Sensor Networks</span>
+              <span class="c-topic">Embedded Systems</span>
+              <span class="c-topic">IoT Protocols</span>
+              <span class="c-topic">Wireless Communication</span>
+            </div>
+          </div>
+
+          <!-- 2. NPTEL Cloud Computing (Elite) -->
+          <div class="certification-card cert-card-featured">
+            <div class="cert-card-header">
+              <div class="cert-icon-wrapper cert-icon-elite">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24">
+                  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                </svg>
+              </div>
+              <span class="cert-status-badge badge-elite">&#11088; Elite &bull; 73%</span>
+            </div>
+
+            <h3 class="cert-title">Cloud Computing</h3>
+            
+            <div class="cert-issuer">
+              <span class="issuer-name">NPTEL &bull; IIT Kharagpur</span>
+              <span class="issuer-dot">&bull;</span>
+              <span class="issuer-focus">Jan–Apr 2026 (12-Week Course)</span>
+            </div>
+
+            <div class="cert-score-strip">
+              <span class="score-pill">Consolidated Score: <strong>73%</strong></span>
+              <span class="score-pill">Assignments: <strong>25/25 (100%)</strong></span>
+              <span class="score-pill">Exam: <strong>47.87/75</strong></span>
+              <span class="score-pill">Credits: <strong>4</strong></span>
+            </div>
+
+            <p class="cert-desc">
+              Prestigious Elite certification from IIT Kharagpur and NPTEL. Comprehensive mastery of distributed cloud systems, virtualization techniques, resource orchestration, cloud security, and scalable infrastructure architectures.
+            </p>
+
+            <div class="cert-meta-footer">
+              <span class="cert-roll">Roll: NPTEL26CS55S966500431</span>
+              <span class="cert-cohort">Certified (Total: 33,345)</span>
+            </div>
+
+            <div class="cert-topics">
+              <span class="c-topic">Cloud Computing</span>
+              <span class="c-topic">Virtualization</span>
+              <span class="c-topic">Distributed Systems</span>
+              <span class="c-topic">Cloud Security</span>
+              <span class="c-topic">IaaS / PaaS</span>
+            </div>
+          </div>
+
+          <!-- 3. Tata & Forage: Cybersecurity Analyst -->
+          <div class="certification-card">
+            <div class="cert-card-header">
+              <div class="cert-icon-wrapper cert-icon-security">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+              </div>
+              <span class="cert-status-badge badge-tata">Industry Simulation &bull; Dec 2024</span>
+            </div>
+
+            <h3 class="cert-title">Cybersecurity Analyst Job Simulation</h3>
+            
+            <div class="cert-issuer">
+              <span class="issuer-name">Tata &bull; Forage</span>
+              <span class="issuer-dot">&bull;</span>
+              <span class="issuer-focus">Enterprise Security</span>
+            </div>
+
+            <p class="cert-desc">
+              Practical industry job simulation designed by Tata. Completed hands-on tasks assessing Identity and Access Management (IAM) strategies, designing custom organizational IAM solutions, evaluating platform integration, and mitigating enterprise access vulnerabilities.
+            </p>
+
+            <div class="cert-meta-footer">
+              <span class="cert-roll">Verification: cF6o6gvfKr5Mk8tfG</span>
+              <span class="cert-cohort">User: EnseRLiqPKCBzA2cy</span>
+            </div>
+
+            <div class="cert-topics">
+              <span class="c-topic">Cybersecurity</span>
+              <span class="c-topic">IAM Fundamentals</span>
+              <span class="c-topic">IAM Strategy</span>
+              <span class="c-topic">Custom IAM Solutions</span>
+              <span class="c-topic">Platform Integration</span>
+            </div>
+          </div>
+
+          <!-- 4. Oracle Academy: Java & Robotics -->
+          <div class="certification-card">
+            <div class="cert-card-header">
+              <div class="cert-icon-wrapper cert-icon-oracle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M8 12h8"></path>
+                  <path d="M12 8v8"></path>
+                </svg>
+              </div>
+              <span class="cert-status-badge badge-oracle">Coursework Completion &bull; Apr 2024</span>
+            </div>
+
+            <h3 class="cert-title">Programming the Finch Robot in Java Workshop</h3>
+            
+            <div class="cert-issuer">
+              <span class="issuer-name">Oracle Academy</span>
+              <span class="issuer-dot">&bull;</span>
+              <span class="issuer-focus">Java &amp; Robotics Engineering</span>
+            </div>
+
+            <p class="cert-desc">
+              Hands-on technical workshop focused on programming embedded robotics using Java. Covered object-oriented programming concepts, algorithmic sensor-motor control, hardware integration, and real-time execution logic for the Finch Robot platform.
+            </p>
+
+            <div class="cert-meta-footer">
+              <span class="cert-roll">Awarded by: Oracle Academy VP William McCabe</span>
+              <span class="cert-cohort">ID: 21BCA234</span>
+            </div>
+
+            <div class="cert-topics">
+              <span class="c-topic">Java Programming</span>
+              <span class="c-topic">Robotics</span>
+              <span class="c-topic">Embedded Logic</span>
+              <span class="c-topic">Algorithm Control</span>
+              <span class="c-topic">Object-Oriented Design</span>
+            </div>
+          </div>
+
+          <!-- 5. Coursera: Data Preparation Excel -->
+          <div class="certification-card">
+            <div class="cert-card-header">
+              <div class="cert-icon-wrapper cert-icon-excel">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24">
+                  <path d="M12 15l-2 5l9-9l-5-2l-2 6z"></path>
+                  <circle cx="12" cy="8" r="7"></circle>
+                </svg>
+              </div>
+              <span class="cert-status-badge">Completed &bull; Sep 2025</span>
+            </div>
+
+            <h3 class="cert-title">Preparing Data for Analysis with Microsoft Excel</h3>
+            
+            <div class="cert-issuer">
+              <span class="issuer-name">Coursera</span>
+              <span class="issuer-dot">&bull;</span>
+              <span class="issuer-focus">Data Analysis &amp; Preparation</span>
+            </div>
+
+            <p class="cert-desc">
+              Comprehensive credential focusing on structuring raw datasets, performing data cleaning and validation, spreadsheet data modeling, error inspection, and formatting datasets for executive reporting and downstream analytics pipelines.
+            </p>
+
+            <div class="cert-meta-footer">
+              <span class="cert-roll">Credential: Coursera Verified</span>
+              <span class="cert-cohort">Data Preparation &amp; Modeling</span>
+            </div>
+
+            <div class="cert-topics">
+              <span class="c-topic">Data Cleaning</span>
+              <span class="c-topic">Advanced Excel</span>
+              <span class="c-topic">Data Validation</span>
+              <span class="c-topic">Spreadsheet Modeling</span>
+              <span class="c-topic">Analytics Readiness</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         7. RESUME CTA SECTION
+         ======================================================== -->
+    <section class="section resume-cta-section section-alt" id="resume">
+      <div class="container">
+        <div class="resume-cta-card">
+          <div class="resume-cta-content">
+            <div class="cta-pill">
+              <span class="pill-dot"></span>
+              <span>Curriculum Vitae</span>
+            </div>
+            <h2 class="cta-headline">Let's build something meaningful with technology.</h2>
+            <p class="cta-description">
+              Explore my resume to learn more about my education, skills, and projects. Available for entry-level roles across Data Analytics, Business Intelligence, Python Development, Machine Learning, and Software Technology.
+            </p>
+            <div class="cta-buttons-row">
+              <a href="resume.pdf" download="Rahul_M_Resume.pdf" class="btn btn-primary btn-lg" id="sectionDownloadResumeBtn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Download Resume (PDF)</span>
+              </a>
+              <button type="button" class="btn btn-outline btn-lg" id="viewResumeModalTriggerBtn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span>View In Browser</span>
+              </button>
+            </div>
+          </div>
+          
+          <div class="resume-cta-visual">
+            <div class="resume-preview-sheet">
+              <div class="sheet-header">
+                <span class="sheet-name">RAHUL M.</span>
+                <span class="sheet-sub">MCA &bull; IT &amp; TECHNOLOGY</span>
+              </div>
+              <div class="sheet-lines">
+                <div class="sheet-line line-wide"></div>
+                <div class="sheet-line line-mid"></div>
+                <div class="sheet-line line-full"></div>
+                <div class="sheet-line line-short"></div>
+              </div>
+              <div class="sheet-badge">PDF Verified</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         8. CONTACT SECTION
+         ======================================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-heading">
+          <div class="section-eyebrow">Get In Touch</div>
+          <h2 class="section-title">Initiate a <span class="gradient-text">Conversation</span></h2>
+          <p class="section-lead">
+            Interested in discussing an entry-level opportunity, technical project, or professional collaboration? Let's connect.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Methods Details -->
+          <div class="contact-cards-col">
+            <div class="contact-channel-card">
+              <div class="channel-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="channel-info">
+                <span class="channel-label">Email Address</span>
+                <a href="mailto:rahulmurugan1812@gmail.com" class="channel-value">rahulmurugan1812@gmail.com</a>
+                <span class="channel-hint">Direct email response</span>
+              </div>
+            </div>
+
+            <div class="contact-channel-card">
+              <div class="channel-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.985 1.985 0 1 1 0-3.97 1.985 1.985 0 0 1 0 3.97zm1.765 13.019H3.57V9h3.532v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </div>
+              <div class="channel-info">
+                <span class="channel-label">LinkedIn Profile</span>
+                <a href="https://www.linkedin.com/in/rahulm1604" target="_blank" rel="noopener noreferrer" class="channel-value">linkedin.com/in/rahulm1604</a>
+                <span class="channel-hint">Professional networking &amp; messaging</span>
+              </div>
+            </div>
+
+            <div class="contact-channel-card">
+              <div class="channel-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </div>
+              <div class="channel-info">
+                <span class="channel-label">GitHub Repository</span>
+                <a href="https://github.com/rahul1604-m" target="_blank" rel="noopener noreferrer" class="channel-value">github.com/rahul1604-m</a>
+                <span class="channel-hint">Source code &amp; development activity</span>
+              </div>
+            </div>
+
+            <div class="contact-channel-card">
+              <div class="channel-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="channel-info">
+                <span class="channel-label">Location</span>
+                <span class="channel-value">Tamil Nadu, India</span>
+                <span class="channel-hint">Pincode: 625005 &bull; Open to on-site, hybrid, &amp; remote roles</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Email Form (Client-side with clear messaging) -->
+          <div class="contact-form-panel">
+            <h3 class="form-panel-title">Connect</h3>
+            <p class="form-panel-subtitle">
+              This message will prepare an email directly to <strong>rahulmurugan1812@gmail.com</strong> in your default email client.
+            </p>
+
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="senderName">Your Name <span class="req">*</span></label>
+                <input type="text" id="senderName" name="name" placeholder="e.g. Priya Sharma" required />
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail">Your Email Address <span class="req">*</span></label>
+                <input type="email" id="senderEmail" name="email" placeholder="e.g. priya@company.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="messageSubject">Subject / Opportunity Role <span class="req">*</span></label>
+                <input type="text" id="messageSubject" name="subject" placeholder="e.g. Data Analyst / Python / ML Role" required />
+              </div>
+
+              <div class="form-group">
+                <label for="messageContent">Message <span class="req">*</span></label>
+                <textarea id="messageContent" name="message" rows="4" placeholder="Hello Rahul, I saw your portfolio and would like to discuss..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="sendMessageBtn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Compose Email</span>
+              </button>
+
+              <p class="form-note">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="16" x2="12" y2="12"></line>
+                  <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+                <span>Direct client connection: Opens your mail application pre-filled without intermediary server storage.</span>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================
+       FOOTER
+       ======================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo">
+          <span>Rahul M</span><span class="brand-dot">.</span>
+        </a>
+        <p class="footer-role">IT &amp; Technology</p>
+        <p class="footer-desc">Building Data-Driven, Intelligent &amp; Technology Solutions</p>
+      </div>
+
+      <div class="footer-links-group">
+        <h4 class="footer-group-title">Navigation</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#maya-3d">3D Models</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-group">
+        <h4 class="footer-group-title">Connect</h4>
+        <ul>
+          <li><a href="https://github.com/rahul1604-m" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/rahulm1604" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="mailto:rahulmurugan1812@gmail.com">Email</a></li>
+          <li><a href="resume.pdf" download="Rahul_M_Resume.pdf">Download Resume</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p>&copy; 2026 Rahul M. All rights reserved.</p>
+        <p class="footer-tagline">MCA Postgraduate &bull; Data &bull; AI/ML &bull; Software</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================
+       MODAL: PROJECT DETAILS DIALOG
+       ======================================================== -->
+  <div class="modal-overlay" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalProjectTitle">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="closeProjectModalBtn" aria-label="Close project modal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-header">
+        <span class="modal-badge" id="modalProjectCategory">Category</span>
+        <h2 class="modal-title" id="modalProjectTitle">Project Title</h2>
+        <div class="modal-metric-box" id="modalMetricBox" style="display:none;"></div>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-section">
+          <h3 class="modal-sec-heading">Overview</h3>
+          <p id="modalProjectOverview" class="modal-text"></p>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-sec-heading">Problem Statement</h3>
+          <p id="modalProjectProblem" class="modal-text"></p>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-sec-heading">Approach &amp; System Architecture</h3>
+          <p id="modalProjectApproach" class="modal-text"></p>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-sec-heading">Technologies Used</h3>
+          <div class="modal-tech-list" id="modalProjectTech"></div>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-sec-heading">Key Deliverables &amp; Work</h3>
+          <ul class="modal-bullets-list" id="modalProjectWork"></ul>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-sec-heading">Results &amp; Verification</h3>
+          <p id="modalProjectResults" class="modal-text"></p>
+        </div>
+
+        <div class="modal-disclaimer" id="modalProjectDisclaimer" style="display:none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+          <span id="modalDisclaimerText"></span>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline" id="modalCloseSecondaryBtn">Close</button>
+        <a href="https://github.com/rahul1604-m" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          <span>View GitHub</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       MODAL: RESUME VIEWER
+       ======================================================== -->
+  <div class="modal-overlay" id="resumeModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalResumeTitle">
+    <div class="modal-card resume-modal-card">
+      <button type="button" class="modal-close-btn" id="closeResumeModalBtn" aria-label="Close resume viewer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-header">
+        <span class="modal-badge">Official Document</span>
+        <h2 class="modal-title" id="modalResumeTitle">Rahul M. &mdash; Resume</h2>
+        <p class="modal-sub">IT &amp; Technology Professional &bull; MCA Postgraduate</p>
+      </div>
+
+      <div class="modal-body resume-modal-body">
+        <div class="resume-document-preview">
+          <!-- Document Header -->
+          <div class="doc-header">
+            <h1 class="doc-name">RAHUL M</h1>
+            <p class="doc-title">IT &amp; TECHNOLOGY PROFESSIONAL | DATA &bull; AI/ML &bull; SOFTWARE</p>
+            <div class="doc-meta">
+              <span><strong>Portfolio:</strong> <a href="https://rahul1604-m.github.io" target="_blank" rel="noopener noreferrer" style="color:#0284c7; text-decoration: underline; font-weight:600;">rahul1604-m.github.io</a></span>
+              <span><strong>Email:</strong> rahulmurugan1812@gmail.com</span>
+              <span><strong>LinkedIn:</strong> linkedin.com/in/rahulm1604</span>
+              <span><strong>GitHub:</strong> github.com/rahul1604-m</span>
+              <span><strong>Location:</strong> Tamil Nadu, India</span>
+            </div>
+          </div>
+
+          <!-- Document Section: Summary -->
+          <div class="doc-sec">
+            <h3 class="doc-sec-title">PROFESSIONAL SUMMARY</h3>
+            <p class="doc-text">
+              MCA postgraduate skilled in Python, SQL, Excel, and Power BI, with hands-on experience in data analysis, machine learning, and visualization. Adept at deriving insights from complex data, building predictive models, and delivering technology solutions, with strong problem-solving abilities and a willingness to learn and adapt.
+            </p>
+          </div>
+
+          <!-- Document Section: Education -->
+          <div class="doc-sec">
+            <h3 class="doc-sec-title">EDUCATION</h3>
+            <div class="doc-table">
+              <div class="doc-row doc-row-head">
+                <span class="doc-cell cell-deg">Education</span>
+                <span class="doc-cell cell-univ">University / Boards</span>
+                <span class="doc-cell cell-yr">Year</span>
+                <span class="doc-cell cell-gr">Grade</span>
+              </div>
+              <div class="doc-row">
+                <span class="doc-cell cell-deg"><strong>Master of Computer Applications (MCA)</strong></span>
+                <span class="doc-cell cell-univ">Sastra Deemed University, Thanjavur</span>
+                <span class="doc-cell cell-yr">July 24 &ndash; May 26</span>
+                <span class="doc-cell cell-gr">CGPA: 7.0</span>
+              </div>
+              <div class="doc-row">
+                <span class="doc-cell cell-deg"><strong>Bachelor of Computer Application (BCA)</strong></span>
+                <span class="doc-cell cell-univ">Hindustan College of Arts and Science, Coimbatore</span>
+                <span class="doc-cell cell-yr">June 21 &ndash; April 24</span>
+                <span class="doc-cell cell-gr">CGPA: 7.4</span>
+              </div>
+              <div class="doc-row">
+                <span class="doc-cell cell-deg"><strong>12th Standard</strong></span>
+                <span class="doc-cell cell-univ">Kendriya Vidyalaya (CBSE), Madurai</span>
+                <span class="doc-cell cell-yr">Apr-21</span>
+                <span class="doc-cell cell-gr">69%</span>
+              </div>
+              <div class="doc-row">
+                <span class="doc-cell cell-deg"><strong>10th Standard</strong></span>
+                <span class="doc-cell cell-univ">Kendriya Vidyalaya (CBSE), Madurai</span>
+                <span class="doc-cell cell-yr">Apr-19</span>
+                <span class="doc-cell cell-gr">58%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Document Section: Technical Skills -->
+          <div class="doc-sec">
+            <h3 class="doc-sec-title">TECHNICAL SKILLS</h3>
+            <ul class="doc-list">
+              <li><strong>Programming &amp; Databases:</strong> Python, SQL, MySQL, Oracle SQL.</li>
+              <li><strong>Analytics &amp; BI Tools:</strong> Microsoft Excel (Advanced), Power BI, Google Sheets, SAS (Learning).</li>
+              <li><strong>Data Analysis:</strong> Data Cleaning, Data Preprocessing, EDA, Statistical Analysis, Forecasting, Customer Segmentation, Time Series Analysis, Predictive Analytics.</li>
+              <li><strong>Machine Learning &amp; Python Libraries:</strong> Pandas, NumPy, Scikit-learn, TensorFlow, Keras, Matplotlib, Seaborn, Random Forest, Decision Trees, KNN, LSTM, Classification, Regression.</li>
+              <li><strong>Visualization &amp; Platforms:</strong> Dashboard Development, Data Visualization, Pivot Tables, VLOOKUP, XLOOKUP, Jupyter Notebook, VS Code, GitHub, Streamlit, APIs.</li>
+              <li><strong>Professional Skills:</strong> Requirement Analysis, Problem Solving, Critical Thinking, Attention to Detail, Time Management, Client Support, Stakeholder Communication, Business Process Understanding; <strong>Languages:</strong> English, Tamil, Hindi.</li>
+            </ul>
+          </div>
+
+          <!-- Document Section: Projects -->
+          <div class="doc-sec">
+            <h3 class="doc-sec-title">PROJECTS</h3>
+            
+            <div class="doc-proj">
+              <h4 class="doc-proj-title">Sales Data Analysis Dashboard</h4>
+              <ul class="doc-bullets">
+                <li>Built an interactive dashboard to monitor sales, profit, and units sold, enabling stakeholder reporting and supporting data-driven client decision-making.</li>
+                <li>Created visualizations (bar, line, pie charts) to analyze sales trends, regional performance, and product insights.</li>
+                <li>Implemented dynamic filters for region, product, and salesperson to enable real-time, data-driven decision.</li>
+              </ul>
+            </div>
+
+            <div class="doc-proj">
+              <h4 class="doc-proj-title">Predicting Length of Survival for Bone Cancer Patients</h4>
+              <ul class="doc-bullets">
+                <li>Expanded machine learning models using KNN and Random Forest to predict bone cancer risk from patient health and medical test data, achieving approximately 89% classification accuracy.</li>
+                <li>Performed data preprocessing, feature selection, and model testing; evaluated accuracy metrics to validate deployment readiness.</li>
+                <li>Designed the system to support early clinical decision-making through predictive insights (academic ML research project).</li>
+              </ul>
+            </div>
+
+            <div class="doc-proj">
+              <h4 class="doc-proj-title">Earthquake Prediction Using Hybrid Approach</h4>
+              <ul class="doc-bullets">
+                <li>Built a hybrid forecasting model using Random Forest and LSTM with USGS earthquake data.</li>
+                <li>Applied sliding-window techniques for seismic feature extraction and time-series forecasting.</li>
+                <li>Improved model performance through preprocessing, normalization, and cross-validation.</li>
+              </ul>
+            </div>
+
+            <div class="doc-proj">
+              <h4 class="doc-proj-title">End-to-End Hybrid AI Framework for Earthquake Forecasting</h4>
+              <ul class="doc-bullets">
+                <li>Improved an end-to-end forecasting system to estimate the probability of major earthquakes (M &ge; 6.0) and maximum expected magnitude, achieving approximately 98% risk classification accuracy.</li>
+                <li>Implemented magnitude-based resampling and sliding-window feature engineering for time-series modeling.</li>
+                <li>Delivered an end-to-end solution deployment enabling real-time seismic risk analysis, interactive hazard visualization, and ongoing system monitoring.</li>
+                <li>Designed system architecture for a hybrid forecasting model, selecting Random Forest and LSTM components and specifying data pipeline requirements using USGS earthquake data.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Document Section: Certifications -->
+          <div class="doc-sec">
+            <h3 class="doc-sec-title">CERTIFICATIONS</h3>
+            <ul class="doc-bullets">
+              <li><strong>Introduction to Internet of Things</strong> &ndash; NPTEL &bull; IIT Kharagpur | <em>Elite + Silver (Score: 81%)</em> | Jan&ndash;Apr 2026 (Roll: NPTEL26CS37S766500152)</li>
+              <li><strong>Cloud Computing</strong> &ndash; NPTEL &bull; IIT Kharagpur | <em>Elite (Score: 73%)</em> | Jan&ndash;Apr 2026 (Roll: NPTEL26CS55S966500431)</li>
+              <li><strong>Cybersecurity Analyst Job Simulation</strong> &ndash; Tata &bull; Forage | Completed Dec 2024 (ID: cF6o6gvfKr5Mk8tfG)</li>
+              <li><strong>Programming the Finch Robot in Java Workshop</strong> &ndash; Oracle Academy | Completed Apr 2024 (ID: 21BCA234)</li>
+              <li><strong>Preparing Data for Analysis with Microsoft Excel</strong> &ndash; Coursera | Sep-2025</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="resume.pdf" download="Rahul_M_Resume.pdf" class="btn btn-primary" id="modalDownloadPdfBtn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Download PDF</span>
+        </a>
+        <button type="button" class="btn btn-outline" id="printResumeBtn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          <span>Print / Save</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top" title="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Notification Toast -->
+  <div class="notification-toast" id="notificationToast" role="status" aria-live="polite"></div>
+
+  <!-- Three.js 3D Engine & Loaders (Local vendor for 100% offline reliability) -->
+  <script src="js/three.min.js"></script>
+  <script src="js/fflate.min.js"></script>
+  <script src="js/OrbitControls.js"></script>
+  <script src="js/FBXLoader.js"></script>
+ <script src="js/embedded-models.js"></script>
+
+  <!-- Main Application Script -->
+  <script src="main.js"></script>
+</body>
+</html>
